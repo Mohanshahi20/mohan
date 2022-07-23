@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  }
+             body{
+  background-image: url('download(4).jpeg');  
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center center;
+  height: 100vh;
+  }
+  
+  .wrapper{
+  width: 890px; 
+  margin: 0 auto;
+  display: inline-flex;
+  }
+  .wrapper ul{
+  list-style: none;
+  margin-top: 2%;
+  }
+  .wrapper ul li {
+  background: #130a0a;
+  width: 10rem;
+  border: 1px solid #fff;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+  color: #fff;
+  font-size: px;
+  position: relative;
+  font-family: poppins;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  }
+  .wrapper ul li:hover{
+  background: crimson;
+  radius: 4px; 
+  }
+  
+  .wrapper ul ul{
+  display: none;
+  text-decoration: none;
+  }
+  a{
+    text-decoration: none;
+    color: blanchedalmond;
+  }
+  .wrapper ul li:hover > ul{
+  display: block;
+  }
+  .wrapper ul ul ul{
+  margin-left: 170px;
+  top: 0;
+  position: absolute;
+  }
+  h6{
+    text-align: center;
+    margin-top:10px;
+    top: 100px;
+    text-align: center;
+    font-size: 20px;
+    background-color: chartreuse;
+  }
+  h5:hover{
+    background-color: bisque;
+  }
+  body{
+    animation: animate 16s ease-in-out infinite;
+    background-size: cover;
+    background-position:alternate;
+}
+
+@keyframes animate{
+    0%,100%{
+        background-image:url('download\ \(4\).jpeg');
+    }
+    25%{
+        background-image:url('images.png');
+    }
+    40%{
+        background-image:url('website.png');
+    }
+    20%{
+        background-image:url('download\ \(4\)\ 2.jpeg');
+    }
+}
